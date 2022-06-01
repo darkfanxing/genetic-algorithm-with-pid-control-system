@@ -1,0 +1,54 @@
+{
+    "files.autoSave": "afterDelay",
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=150"
+    ],
+    "python.formatting.provider": "yapf",
+    "editor.formatOnSave": true,
+    "cSpell.ignoreRegExpList": [
+        "yapf",
+        "pipenv",
+        "ndarray",
+        "dtype",
+        "fastapi",
+        "frombuffer"
+    ],
+    "todohighlight.keywords": [
+        {
+            "text": "TODO:",
+            "color": "#fff",
+            "backgroundColor": "#f9a825"
+        },
+        {
+            "text": "REVIEW:",
+            "color": "#005cb2",
+            "backgroundColor": "#ffeb3b",
+        },
+        {
+            "text": "FIXME:",
+            "color": "#000",
+            "backgroundColor": "#f06292",
+            "isWholeLine": true,
+        },
+        {
+            "text": "NOTE:",
+            "color": "#ff0000",
+            "backgroundColor": "#ffeb3b",
+        },
+        {
+            "text": "DEBUG:",
+            "color": "#fff",
+            "backgroundColor": "#ab000d",
+        },
+    ],
+    "cSpell.ignoreWords": [
+        "arange",
+        "ipynb",
+        "linspace",
+        "matplotlib",
+        "pyplot",
+        "scipy"
+    ],
+}

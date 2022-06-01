@@ -1,0 +1,12 @@
+genetic-algorithm:
+  iteration-number: 200
+  population-number: 50
+  mutation-probability: 0.1
+  crossover-rate: 0.9
+  PID-boundary: [0, 1]
+  eta-boundary: [0.30001, 0.69999]
+control-system:
+  initial-y-now: 2
+  period: 4
+  slicing-per-period: 60
+  u-boundary: [-50, 50]
