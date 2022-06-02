@@ -134,28 +134,28 @@ class GeneticAlgorithm():
         """
         value_scale_number = uniform(-0.3, 0.3)
         if random() < self.mutation_probability * 0.25:
-            chromosome.kp += random() * value_scale_number
+            chromosome.kp += value_scale_number
             chromosome.kp = self.__check_boundary(
                 chromosome.kp,
                 self.pid_boundary,
             )
 
         elif random() < self.mutation_probability * 0.5:
-            chromosome.ki += random() * value_scale_number
+            chromosome.ki += value_scale_number
             chromosome.ki = self.__check_boundary(
                 chromosome.ki,
                 self.pid_boundary,
             )
 
         elif random() < self.mutation_probability * 0.75:
-            chromosome.kd += random() * value_scale_number
+            chromosome.kd += value_scale_number
             chromosome.kd = self.__check_boundary(
                 chromosome.kd,
                 self.pid_boundary,
             )
 
         elif random() < self.mutation_probability:
-            chromosome.eta += 4 * random() * value_scale_number
+            chromosome.eta += 0.2 * value_scale_number
             chromosome.eta = self.__check_boundary(
                 chromosome.eta,
                 self.eta_boundary,
