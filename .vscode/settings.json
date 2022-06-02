@@ -49,6 +49,9 @@
         "linspace",
         "matplotlib",
         "pyplot",
-        "scipy"
+        "scipy",
+        "xlabel",
+        "ylabel",
+        "ylim"
     ],
 }
