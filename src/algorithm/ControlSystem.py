@@ -129,5 +129,7 @@ class ControlSystem():
 
         Returns:
             float: The sum of errors at each time
+
         """
+
         return sum(abs(array(self.errors)))
