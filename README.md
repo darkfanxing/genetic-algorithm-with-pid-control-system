@@ -29,6 +29,9 @@ The result table is based on the following settings of genetic algorithm:
 4. `crossover rate`: 0.9
 5.  `PID value boundary`: [0, 1]
 6.  `eta value boundary`: [0.30001, 0.69999]
+7.  `fitness function`:
+
+    ![](https://i.imgur.com/y0XF8TL.png?)
 
 
 | Control System Output                | Chromosome Value                                     | Control System Setting                          |
